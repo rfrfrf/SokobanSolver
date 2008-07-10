@@ -1,0 +1,8 @@
+10
+6
+WWWWW
+W   WWWWWW
+W b XX b W
+WWb XXbbmW
+ W  XX b W
+ WWWWWWWWW

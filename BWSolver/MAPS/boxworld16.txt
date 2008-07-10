@@ -1,0 +1,11 @@
+10
+9
+  WWWWWW
+  W    WWW
+  W b    W
+WWW b WW W
+WXXX b   W
+WXXXbWb WW
+WWWW W b W
+   W  m  W
+   WWWWWWW

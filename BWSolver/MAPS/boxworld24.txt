@@ -1,0 +1,11 @@
+14
+9
+WWWWWW   WWWWW
+W    WWW W  XW
+W  b b W WXXXW
+W W  b WWW  XW
+W  bbb   b mXW
+WWW  b  bW  XW
+  W  bWb WXXXW
+  WW     W  XW
+   WWWWWWWWWWW

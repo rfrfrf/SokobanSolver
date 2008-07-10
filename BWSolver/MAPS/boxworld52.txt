@@ -1,0 +1,11 @@
+16
+9
+         WWWWW
+         W   W
+WWWWWWWWWW B WWW
+W          X   W
+W bbbbBBBBbXXXmW
+W          X   W
+WWWWWWWWWW B WWW
+         W   W
+         WWWWW

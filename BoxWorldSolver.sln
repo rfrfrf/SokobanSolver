@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BWSolver", "BWSolver\BWSolver.vcproj", "{ABDB369A-5F19-454F-BD02-762FC90E6DDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CF7BF69-79BA-4EE5-A75E-A685D8667388} = {0CF7BF69-79BA-4EE5-A75E-A685D8667388}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxWorldSolverLib", "BoxWorldSolverLib\BoxWorldSolverLib.vcproj", "{0CF7BF69-79BA-4EE5-A75E-A685D8667388}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDB369A-5F19-454F-BD02-762FC90E6DDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABDB369A-5F19-454F-BD02-762FC90E6DDB}.Debug|Win32.Build.0 = Debug|Win32
+		{ABDB369A-5F19-454F-BD02-762FC90E6DDB}.Release|Win32.ActiveCfg = Release|Win32
+		{ABDB369A-5F19-454F-BD02-762FC90E6DDB}.Release|Win32.Build.0 = Release|Win32
+		{0CF7BF69-79BA-4EE5-A75E-A685D8667388}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CF7BF69-79BA-4EE5-A75E-A685D8667388}.Debug|Win32.Build.0 = Debug|Win32
+		{0CF7BF69-79BA-4EE5-A75E-A685D8667388}.Release|Win32.ActiveCfg = Release|Win32
+		{0CF7BF69-79BA-4EE5-A75E-A685D8667388}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

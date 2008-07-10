@@ -1,0 +1,15 @@
+15
+13
+WWWWWWWWWWWWWWW
+W      W      W
+W b Wb W bWWb W
+W W  b W      W
+W   WWbWbWWbb W
+W W W XXX W   W
+W b  X W Xb W W
+W bWmbXXXW W  W
+W    X W X  b W
+W WWXbWWWbX W W
+W W bXXXXX WW W
+W             W
+WWWWWWWWWWWWWWW

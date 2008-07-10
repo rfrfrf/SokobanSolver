@@ -1,0 +1,16 @@
+15
+14
+WWWW
+W  WWW
+W b  WWW
+W b b  WWW
+W b b b  WWW
+W b b b    W
+W b b  W   WW
+W b  WW bbb W
+Wm WWWW     WW
+WW W WXbbbbbXW
+ W WWWXXXXXXXWW
+ W   XBBBBBBBXW
+ WWWWXXXXXXXXXW
+    WWWWWWWWWWW

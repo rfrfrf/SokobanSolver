@@ -1,0 +1,233 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BWSolver.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BWSolver.ico"
+IDI_BOXICON             ICON                    "res\\box.ico"
+IDI_EMPTYICON           ICON                    "res\\empty.ico"
+IDI_MANICON             ICON                    "res\\man.ico"
+IDI_REDBOXICON          ICON                    "res\\redbox.ico"
+IDI_SPOTICON            ICON                    "res\\spot.ico"
+IDI_WALLICON            ICON                    "res\\wall.ico"
+IDI_SPOTMANICON         ICON                    "RES\\SPOTMAN.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Box World Solver"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Box World Solver Version 1.0.3",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "OpenSource",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Please send all comments and suggestions to duisendpoot@users.sourceforge.net",
+                    IDC_STATIC,39,43,160,23
+END
+
+IDD_BWSOLVER_DIALOG DIALOGEX 0, 0, 470, 298
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Box World Solver"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,341,276,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Quit",IDCANCEL,413,274,50,16
+    GROUPBOX        "World Items",IDC_STATIC,354,7,109,63
+    PUSHBUTTON      "Solve",IDC_BUTTONSOLVE,380,124,55,18
+    PUSHBUTTON      "Load a World",IDC_LOADWORLD,357,233,57,18
+    CONTROL         "Custom1",IDC_WORLD,"__DETAIL_WORLDMAP_WND_CLASS",
+                    WS_TABSTOP,7,7,339,252
+    CONTROL         "Custom2",IDC_PALETTE,"__DETAIL_WORLDMAP_WND_CLASS",
+                    WS_TABSTOP,357,20,64,39
+    LTEXT           "Frame 1",IDC_FRAMENUMBER,79,262,45,8
+    CONTROL         "Slider1",IDC_FRAMESLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,21,272,156,18
+    GROUPBOX        "Solution",IDC_STATIC,354,75,109,152
+    EDITTEXT        IDC_MAXDEPTH,402,90,22,15,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    CONTROL         "Spin3",IDC_MAXDEPTHSPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    424,90,11,15
+    LTEXT           "Maximum moves",IDC_STATIC,364,90,30,17
+    CONTROL         "Progress3",IDC_SOLUTIONPROGRESS,"msctls_progress32",
+                    WS_BORDER,359,145,98,13
+    LTEXT           "",IDC_INFORMATION,355,161,105,64,0,WS_EX_CLIENTEDGE
+    CONTROL         "All Processing to Solver",IDC_PRIORITY,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,365,108,90,
+                    11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,2,0
+ PRODUCTVERSION 1,0,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Box World Solver MFC Application"
+            VALUE "FileVersion", "1, 0, 2, 0"
+            VALUE "InternalName", "Box World Solver"
+            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "OriginalFilename", "BoxWorldSolver.EXE"
+            VALUE "ProductName", "Box World Solver Application"
+            VALUE "ProductVersion", "1, 0, 2, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_BWSOLVER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Box World Solver..."
+    IDS_FILELOADPROMPT      "Select a map file to load"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BWSolver.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
